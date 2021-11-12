@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly Clothing®</title>
+    <link rel="icon" href="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/81681345_1377016132460164_4487823658441506816_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=RvrwPrdlKNMAX_EjHpB&_nc_ht=scontent.fhan14-1.fna&oh=a0450ed6b387c9e5e88979e728398b75&oe=614F7A69" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.6435-9/81681345_1377016132460164_4487823658441506816_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ndQigwKO6FkAX8Dkdnd&_nc_ht=scontent.fhan2-2.fna&oh=0dd8a92235177bbebb1149ae772c9e16&oe=618EC269" type="image/x-icon" />
+
+</head>
+<body>
+    <div class="molly-web">
+        <div class="announcment">
+            <div class="announcment-wrap">
+                <div class="announcment-text">
+                    Miễn phí giao hàng cho đơn hàng trên 1.000.000đ
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <nav class="header__navbar">
+                <div class="header__narbar-layout">
+                    <div class="header__items header__layout-search">
+                        <div class="header-search">
+                            <a href="" class="header-search-icon">
+                                <i class="fas fa-search"></i>
+                            </a> 
+                        </div>
+                    </div>
+                    <div class="header__items header__layout-logo">
+                        <div class="h1__logo">
+                            <a href="index.html" class="header-logo">
+                                MOLLY CLOTHING
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="header__items header__layout-profile">
+                        <div class="header-profle">
+                            <a href="register.html" class="header-profile-icon">
+                                <i class="far fa-user"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-list-item">
+                            <a href="#" class="menu-list-item-link">About us</a>
+                        </li>
+                        <li class="header__menu-list-item header__menu-list-item__shop ">
+                            <a href="#" class="menu-list-item-link menu-list-item-link-shop ">Shop</a>
+                            <ul class="shop-menu">
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">New arrials</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Instocks</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Top wear</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Headware</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Bottoms</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Denim</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Outerwear</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Accessories</a>
+                                </li>
+                                <li class="shop-menu-list">
+                                    <a href="#" class="shop-menu-list-link">Sale</a>
+                                </li>
+                                <div class="underbar"></div>
+                            </ul>
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#" class="menu-list-item-link">Collections</a>
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#" class="menu-list-item-link">Blog</a>
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#" class="menu-list-item-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="main__container">
+                <div class="shop__header">
+                    <header class="shop__header-products">
+                        <h1 class="shop__header-products-h1">PRODUCTS</h1>
+                    </header>
+                </div>
+                <div class="shop__filter">
+                    <div class="shop__filter-collection">
+                        <div class="drop__down-collection">
+                            <div class="drop__down-collection-item">
+                                <label for="Soft by" class="hidden-lable"></label>
+                                <select name="Sort by" id="SortBy">
+                                    <option value="title-ascending" selected="selected">Sort</option>
+                                    <option value="manual">Feartured</option>
+                                    <option value="best-selling">Best selling</option>
+                                    <option value="title-ascending" selected="selected">Alphabetically, A-Z</option>
+                                    <option value="title-descending">Alphabetically, Z-A</option>
+                                    <option value="price-ascending">Price, low to high</option>
+                                    <option value="price-descending">Price, high to low</option>
+                                    <option value="created-ascending">Date, old to new</option>
+                                    <option value="created-descending">Date, new to old</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <!-- sold out -->
+                            <a href="#" class="home-product-item ">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url('https://cdn.shopify.com/s/files/1/1687/1083/products/image_fa6c8f0d-4216-4d4f-902c-3f4979f134b6_360x.jpg?v=1619331548');"></div>
+                                <div class="home-product-item__name">Anicca Polo Shirt - Black Denim Collar Brown</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">470.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                            <!-- sold out -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/image_3ba29636-de63-420a-8aa5-58c85a372c97_750x.jpg?v=1611723725);"></div>
+                                <div class="home-product-item__name">Anicca Polo Shirt - Indigo Denim Collar Heather Grey</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">470.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <!-- Bth -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/z2305529596345_2b01cecff671b0a4d9dc2a4e96c10e89_750x.jpg?v=1612003611);"></div>
+                                <div class="home-product-item__name">ANICCA REBUILT SLIM-SKINNY JEAN - Black Olive Canvas</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">670.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/z2305529640326_fd65c55932879f819f2ae1f71801a876_750x.jpg?v=1614236554);"></div>
+                                <div class="home-product-item__name">ANICCA REBUILT SLIM-SKINNY JEAN - Dirt Indigo Olive Canvas</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">700.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <!-- Sale -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/33_750x.jpg?v=1589531423);"></div>
+                                <div class="home-product-item__name">BLACK PILLING DENIM SHORT</div>
+                                <div class="home-product-price">
+                                    <span class="home-product-item__old-price">600.000₫ </span>
+                                    <span class="home-product-item__current-price">349.000₫ </span>
+                                    <div class="home-product-item__sale">
+                                        <span class="home-product-item__sale-lable">Sale</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/9_24883fc4-3da4-4747-b88d-30a9feb3526f_750x.jpg?v=1590041429);"></div>
+                                <div class="home-product-item__name">BLACK PILLING DENIM SHORT</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">650.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/3-TE9100-TX01-1_1_750x.jpg?v=1603566548);"></div>
+                                <div class="home-product-item__name">Black Waffle Logo T-Shirt</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">345.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/4-TE9100-TX01-1_750x.jpg?v=1603567651);"></div>
+                                <div class="home-product-item__name">Camel Waffle Logo T-Shirt</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">345.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/41_750x.jpg?v=1589533300);"></div>
+                                <div class="home-product-item__name">CAMEL/BLACK POLAR FLY JACKET</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">800.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <!-- Bth -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/42_750x.jpg?v=1589533412);"></div>
+                                <div class="home-product-item__name">CAMEL/GREY POLAR FLY JACKET</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">800.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/2-TE9100-TX01-1_750x.jpg?v=1603567138);"></div>
+                                <div class="home-product-item__name">Camo Waffle Logo T-Shirt</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">375.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <!-- Sold out -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/3-TE8102-TX01-1-None_750x.jpg?v=1603563396);"></div>
+                                <div class="home-product-item__name">Cargo Black Crinkle Nylon Short</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">420.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/1-TE9201-1-None_750x.jpg?v=1617773526);"></div>
+                                <div class="home-product-item__name">Cargo Crinkle Nylon Short - GOLD ANICCA</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">450.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/2-TE9201-1-None_750x.jpg?v=1617773533);"></div>
+                                <div class="home-product-item__name">Cargo Crinkle Nylon Short - GREY ANICCA</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">450.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/image_b6b1998f-3ae1-454e-9763-2b3edef75252_750x.jpg?v=1610630579);"></div>
+                                <div class="home-product-item__name">CARGO OLIVE CRINKLE NYLON SHORT</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">420.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/3_62581774-aa2c-47f7-a7d6-e143bedf1741_750x.jpg?v=1590040958);"></div>
+                                <div class="home-product-item__name">DARK GREY OMBRE 5 PIECE JACKET</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">800.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/9_24883fc4-3da4-4747-b88d-30a9feb3526f_750x.jpg?v=1590041429);"></div>
+                                <div class="home-product-item__name">DARK GREY OMBRE 5 PIECE JACKET</div>
+                                <div class="home-product-price">
+                                    <span class="home-product-item__old-price">500.000₫ </span>
+                                    <span class="home-product-item__current-price">150.000₫ </span>
+                                    <div class="home-product-item__sale">
+                                        <span class="home-product-item__sale-lable">Sale</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/2-TE8102-TX01-1_750x.jpg?v=1618931438);"></div>
+                                <div class="home-product-item__name">DEEP INDIGO DENIM SHORT</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">450.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/3-BA8104-TX01-1_750x.jpg?v=1599538057);"></div>
+                                <div class="home-product-item__name">DESERT SAND NYLON MESSENGER BAG</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">750.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/3-TE8200-TX01-1_750x.jpg?v=1614236290);"></div>
+                                <div class="home-product-item__name">DESTROYED SLIM-SKINNY JEAN - Claw Indigo</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">700.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+                    <!-- Last row -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/5_2770e745-e59e-4afd-999d-4e3fd13fda48_750x.jpg?v=1592818878);"></div>
+                                <div class="home-product-item__name">DIRT INDIGO OVERSIZED DENIM SHIRT</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">800.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/2-TE9404-TX01-1_750x.jpg?v=1608715651);"></div>
+                                <div class="home-product-item__name">Double Armpit Hoodie OFFFWHITE</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">600.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+
+                    <!-- Sold  -->
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/image_ce588380-1c48-47a2-8ca9-92a37455763a_750x.jpg?v=1610630876);"></div>
+                                <div class="home-product-item__name">DOUBLE ARMPIT HOODIE TieDye Yellow</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">650.000₫ </span></div> 
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <nav class="category">
+                            <a href="#" class="home-product-item">
+                                <div class="home-product-item__img home-product-item__img-sold" style="background-image:url(https://cdn.shopify.com/s/files/1/1687/1083/products/1-TE9153-TX01-1_750x.jpg?v=1608716269);"></div>
+                                <div class="home-product-item__name">Double Armpit Sweater OFFWHITE</div>
+                                <div class="home-product-price"><span class="home-product-item__current-price">500.000₫ </span></div> 
+                                <div class="home-product-item__sold-out">
+                                    <span class="home-product-item__sold-lable">Sold out</span>
+                                </div>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="pagination home-product__pagination">
+                <li class="pagination-item  pagination-item-active">
+                    <a href="" class="pagination-item__link">1</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">2</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">3</a>
+
+                <li class="pagination-item">
+                    <a href="" class="pagination-item__link">
+                        <i class="pagination-item-icon fas fa-angle-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="register-form">
+                    <header class="register-heading">
+                        <div class="register-dangky">Đăng ký</div>
+                    </header>
+                    <div class="register-discription">Đăng ký để nhận cập nhật qua email về thông báo sản phẩm mới, ý tưởng quà tặng, khuyến mãi đặc biệt, bán hàng và hơn thế nữa.</div>
+                    <div class="register-group">
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required class="register-fill-input">
+                        <button type="submit" value="submit" class="btn-send-email" >
+                            <i class="btn-send-icon far fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>                
+                </div>
+            </div>
+        </footer>
+
+        <footer class="footer__bottom">
+            <div class="grid">
+                <div class="footer-icon">
+                    <a href="" class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+
+                <div class="footer-policy">
+                    <div class="footer-text"><a class="footer-text-link" href="#">Privacy Policy</a></div>
+                    <div class="footer-text"><a class="footer-text-link" href="#">Refund Policy</a></div>
+                    <div class="footer-text"><a class="footer-text-link" href="#">Terms of Service</a></div>
+                </div>
+
+                <p class="footer-copyright">
+                    © 2021 Molly ®
+                </p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
